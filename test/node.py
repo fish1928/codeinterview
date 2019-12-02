@@ -22,6 +22,18 @@ def initialize_nodes(quantity):
 
 
 if __name__ == "__main__":
+    # 单链表创建 example
+    n1 = Node(1)
+    n2 = Node(2)
+    n3 = Node(3)
+
+    n1.next = n2
+    n2.next = n3
+    # 以上代码完成节点数为3的单链表
+    # 其中该单链表由n1,n2,n3组成
+    # 其中 n1是头节点
+
+
     # [0] test for initialize_nodes and to string
     head = initialize_nodes(20)
     print(head)
